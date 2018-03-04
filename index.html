@@ -4,31 +4,34 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>GL-FOTO-FINDER</title>
-  <link rel="stylesheet" href="">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <section class="user-input-section">
-    <article class="title-user-input-form">
-      <header>
-        <h1>FOTO</h1>
-        <img src="photos/camera.png" alt="camera logo">
-        <h1>FINDER</h1>
+  <section class="page-container">
+    <article class="content-container">
+      <header class="content-header">
+        <h1 class="title">FOTO</h1>
+        <img class="logo" src="photos/foto-finder-logo.svg" alt="camera logo">
+        <h1 class="title">FINDER</h1>
       </header>
-      <main>
-        <form>
-          <label>Title
+        <form class="content-form">
+          <label class="title-label">Title
             <input type="text">
           </label>
-          <label>Caption
+          <label class="caption-label">Caption
             <input type="text">
           </label>
         </form>
-        <button>Choose File</button>
-        <button>ADD to Album</button>
-      </main>
+        <form class="content-buttons">
+          <label class="choose-file">
+            Choose File
+            <input type="file"/>
+          </label>
+          <input type="submit" class="add-button" value="Add to Album">
+        </form>
     </article>
   </section>
-  <section class="foto-album-section">
+<!--   <section class="foto-album-section">
     <ul>
       <li>
         <h2>this is the title on the generated foto card</h2>
@@ -38,6 +41,6 @@
         <input type="submit">
       </li>
     </ul>
-  </section>
+  </section> -->
 </body>
 </html>

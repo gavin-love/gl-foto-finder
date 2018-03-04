@@ -1,0 +1,71 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+label, input {
+    display: block;
+    text-align: left;
+}
+input {
+    width: 99%;
+    padding: 1em;
+}
+
+.page-container {
+    /*border: 4px solid pink;*/
+    height: 50%;
+}
+
+.content-container {
+    /*border: 4px solid blue;*/
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    height: 100%;
+}
+
+.content-header {
+    /*border: 4px solid yellow;*/
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+}
+
+.logo {
+    width: 2em;
+    height: 3em;
+}
+
+.content-form {
+    width: 100%;
+    margin: auto;
+}
+
+/*.title-label, .caption.label {
+    width: 100%;
+}*/
+
+.content-buttons {
+    display: flex;
+    width: 100%;
+    margin: auto;
+}
+
+.choose-file [type=file] {
+    display: none;
+}
+
+.choose-file {
+    background: red;
+    float: left;
+    padding: .5em;
+    width: 40%;
+}
+
+.add-button {
+
+}
